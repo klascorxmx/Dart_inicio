@@ -68,15 +68,8 @@ void main() {
       0]); // se imprime solo el valor de que esta en la lista, en la posicion 0
 
   //VARIABLE DE TIPO SETS
-
-  var mySet = {
-    "jessi",
-    "Franklin",
-    "Luciana",
-    "Emiliana",
-    "jessi",
-    "Luciana"
-  }; // variavle de tipo set, puede almacenar una lista de datos pero no imprime los duplicados
+// variavle de tipo set, puede almacenar una lista de datos pero no imprime los duplicados
+  var mySet = {"jessi", "Franklin", "Luciana", "Emiliana", "jessi", "Luciana"};
   print(mySet);
 
   var miMap = {"Jessi": 35, "Franklin": 39, "Luciana": 6};
